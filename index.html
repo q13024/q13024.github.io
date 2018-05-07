@@ -1,0 +1,34 @@
+<span style="font-size:25px;"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+ <TITLE>抽签 </TITLE>
+ <SCRIPT LANGUAGE="JavaScript">
+var names = [
+"English",
+"sport",
+"code",
+];
+var time;
+function chouqian(){
+var index = Math.floor(Math.random()*1000 % names.length);
+var name = names[index];
+document.getElementById("result").innerHTML = name;
+time = window.setTimeout(chouqian,2);
+window.clearTimeout(time);
+}
+function reload()
+{
+    window.location.reload();
+}
+
+ </SCRIPT>
+</HEAD>
+
+<BODY onload="chouqian()">
+<div style="text-align:center;margin-top:100px">
+<h1>let me decide what you do</h1>
+<h3 id="result" style="color:green"></h3>
+<INPUT TYPE="button" style="font-size:35px;" VALUE="retry" id="btnBegin" ONCLICK="reload();"> 
+</div>
+</BODY>
+</HTML></span>
