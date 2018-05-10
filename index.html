@@ -1,6 +1,6 @@
 <HTML>
 <HEAD>
- <TITLE>抽签 </TITLE>
+ <TITLE>best_wishes</TITLE>
  <SCRIPT LANGUAGE="JavaScript">
 var Arraycolor=new Array("#00FF66","#FFFF99","#99CCFF","#FFCCFF","#FFCC99","#00FFFF","#FFFF00","#FFCC00","#FF00FF");
 var n=0;
@@ -11,10 +11,10 @@ function turncolors(){
 	setTimeout("turncolors()",1000);
 }
 turncolors();
-var Tname="Welcome you";
+var Tname="此生因你痴狂";
 var Tlen=Tname.length;
 document.write("<div id='a' style='text-align: center;font-size:25px;margin-top:20px'>"+Tname+"</div>");
-var col=new Array("#FFCC00","#3333FF","#FFCC00","#FF0000","#FFCC00","#CC33FF");
+var col=new Array("#FFCC00","#3333FF","#FFCC00","#FF0000","#FFCC00","#CC33FF","#99CCFF");
 var ic=0;
 function Dcolor(){
   var Strname="";
@@ -27,14 +27,9 @@ function Dcolor(){
   setTimeout("Dcolor()",200);
 }
 Dcolor();
-
-
 var names = [
-"English",
-"sport",
-"code",
- "walk",
- "shopping"
+"only choice:fighting",
+"only choice:fighting",
 ];
 var time;
 function chouqian(){
@@ -52,8 +47,12 @@ function reload()
 </HEAD>
 
 <BODY onload="chouqian()">
-<div style="text-align:center;margin-top:100px">
-<h1>let me decide what you do</h1>
+<div style="text-align:center;margin-top:100px;font-size:20px">
+<h5>2018年01月20日-02月2日经历一场疾病的考验，我明白了许多：<br>
+每个人都会经历生死，这是自然法则。<br>
+只是当你离开世界的时候，你是否做完此生你要做的事情，可以快快乐乐地走。<br>
+今生我活着最大的愿望就是报答父母。</h5>
+<h7>let me decide what you do</h7>
 <h3 id="result" style="color:green"></h3>
 <INPUT TYPE="button" style="font-size:35px;" VALUE="retry" id="btnBegin" ONCLICK="reload();"> 
 </div>
