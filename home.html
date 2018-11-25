@@ -1,0 +1,640 @@
+<!DOCTYPE HTML>
+<HTML lang="en">
+<HEAD>
+
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+<META name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no"> 
+<style>
+div {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+p {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+dl {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+dd {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+h1 {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+h2 {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+h3 {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+h4 {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+h5 {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+h6 {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+a {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+b {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+u {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+em {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+input {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+textarea {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+button {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+select {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+form {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+section {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+label {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+span {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+td {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+li {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+nav {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+footer {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+body {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+html {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+ul {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+i {
+	margin: 0px; padding: 0px; -webkit-box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, .2);
+}
+ul {
+	list-style: none;
+}
+li {
+	list-style: none;
+}
+ol {
+	list-style: none;
+}
+a {
+	color: rgb(51, 51, 51); text-decoration: none;
+}
+a {
+	-webkit-touch-callout: none;
+}
+img {
+	-webkit-touch-callout: none;
+}
+input {
+	-webkit-touch-callout: none;
+}
+button {
+	-webkit-touch-callout: none;
+}
+textarea {
+	-webkit-touch-callout: none;
+}
+a:focus {
+	outline: 0px;
+}
+a:active {
+	outline: 0px;
+}
+a:hover {
+	outline: 0px;
+}
+input {
+	outline: 0px;
+}
+button {
+	outline: 0px;
+}
+textarea {
+	outline: 0px;
+}
+img {
+	display: block;
+}
+body {
+	font-family: "微软雅黑",helvetica,arial; font-size: 1.4rem; -webkit-text-size-adjust: none;
+}
+td {
+	font-family: "微软雅黑",helvetica,arial; font-size: 1.4rem; -webkit-text-size-adjust: none;
+}
+input {
+	font-family: "微软雅黑",helvetica,arial; font-size: 1.4rem; -webkit-text-size-adjust: none;
+}
+textarea {
+	font-family: "微软雅黑",helvetica,arial; font-size: 1.4rem; -webkit-text-size-adjust: none;
+}
+option {
+	font-family: "微软雅黑",helvetica,arial; font-size: 1.4rem; -webkit-text-size-adjust: none;
+}
+select {
+	font-family: "微软雅黑",helvetica,arial; font-size: 1.4rem; -webkit-text-size-adjust: none;
+}
+button {
+	font-family: "微软雅黑",helvetica,arial; font-size: 1.4rem; -webkit-text-size-adjust: none;
+}
+.clearfix::after {
+	overflow: hidden; clear: both; display: block; visibility: hidden; content: "";
+}
+.tc {
+	text-align: center;
+}
+.r {
+	float: right;
+}
+.l {
+	float: left;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.4rem; background-color: rgb(244, 244, 244);
+}
+.inner {
+	margin: 0.75rem 0.5rem 0px;
+}
+.bg-white {
+	border-width: 1px 0px; border-style: solid; border-color: rgb(225, 229, 240); border-image: none; margin-bottom: 10px; background-color: rgb(255, 255, 255);
+}
+.weather-box {
+	margin: 14px 0px; height: 40px; overflow: hidden; font-size: 0px; position: relative;
+}
+.weather-box .weather-inner {
+	visibility: hidden;
+}
+.weather-box .loading-text {
+	left: 0px; top: 0px; width: 100%; height: 40px; text-align: center; color: rgb(153, 153, 153); line-height: 40px; font-size: 1.4rem; position: absolute;
+}
+.weather-box .left {
+	text-align: center; margin-left: 2px; vertical-align: top; float: left;
+}
+.weather-box .tmprt-box {
+	text-align: center; margin-left: 2px; vertical-align: top; float: left;
+}
+.weather-box .w-icon {
+	text-align: center; margin-left: 2px; vertical-align: top; float: left;
+}
+.weather-box .left {
+	margin-right: 4px;
+}
+.weather-box .left .addr {
+	height: 16px; overflow: hidden; font-size: 1.2rem; margin-top: 3px; display: block; max-width: 48px;
+}
+.weather-box .left .switch-addr {
+	color: rgb(106, 189, 255); font-size: 1.2rem; margin-top: 2px; display: inline-block;
+}
+.weather-box .tmprt-box {
+	margin: 0px 4px; padding-right: 6px; border-right-color: rgb(153, 153, 153); border-right-width: 1px; border-right-style: solid;
+}
+.weather-box .tmprt-box .t-cur {
+	color: rgb(102, 102, 102); line-height: 24px; font-size: 2.2rem; display: block;
+}
+.weather-box .tmprt-box .t-range {
+	font-size: 1.2rem;
+}
+.weather-box .w-icon img {
+	width: 25px; height: 28px; margin-top: 6px; float: left;
+}
+.weather-box .w-icon .w-state {
+	text-align: left; color: rgb(153, 153, 153); line-height: 20px; padding-left: 6px; font-size: 1.4rem; display: inline-block;
+}
+.weather-box .w-icon .w-state .w-pm {
+	float: left;
+}
+.weather-box .w-icon .w-state .w-air {
+	height: 20px; line-height: 20px; overflow: hidden; display: block;
+}
+.weather-box .w-icon .w-state .w-qlt {
+	margin: 2px 0px 0px 3px; padding: 0px 2px; width: auto; height: 16px; text-align: center; color: rgb(255, 255, 255); line-height: 16px; font-size: 1rem; font-style: normal; vertical-align: text-top; float: right; background-color: rgb(153, 204, 103);
+}
+.weather-box .w-time {
+	text-align: right; line-height: 20px; font-size: 1.2rem; float: right;
+}
+.search-box {
+	margin: 10px 0px; font-size: 0px;
+}
+.search-box .ipt {
+	border-radius: 4px 0px 0px 4px; border: 1px solid rgb(74, 181, 255); border-image: none; width: 76%; height: 40px; overflow: hidden; float: left;
+}
+.search-box .text-search {
+	padding: 10px 8px 8px; border: currentColor; border-image: none; width: 100%; height: 100%; line-height: 20px; font-size: 1.4rem; -webkit-box-sizing: border-box; -webkit-appearance: none;
+}
+.search-box .btn-search {
+	border-radius: 0px 4px 4px 0px; border: 1px solid rgb(74, 181, 255); border-image: none; width: 24%; height: 40px; color: rgb(255, 255, 255); font-size: 1.6rem; vertical-align: bottom; display: inline-block; background-color: rgb(74, 181, 255);
+}
+.fast-list {
+	margin: 12px 0px 6px;
+}
+.fast-list {
+	width: 100%; overflow: hidden; font-size: 0px;
+}
+.dh-list {
+	width: 100%; overflow: hidden; font-size: 0px;
+}
+.fast-list li {
+	width: 20%; font-size: 1.4rem; float: left;
+}
+.dh-list li {
+	width: 20%; font-size: 1.4rem; float: left;
+}
+.fast-list li img {
+	margin: 0px auto; text-align: center; display: block;
+}
+.fast-list li span {
+	margin: 0px auto; text-align: center; display: block;
+}
+.dh-list li img {
+	margin: 0px auto; text-align: center; display: block;
+}
+.dh-list li span {
+	margin: 0px auto; text-align: center; display: block;
+}
+.fast-list li a {
+	display: block;
+}
+.dh-list li a {
+	display: block;
+}
+.fast-list li img {
+	width: 24px; height: 24px;
+}
+.fast-list li span {
+	line-height: 24px;
+}
+.dh-list {
+	padding: 8px 0px 4px;
+}
+.dh-list li {
+	margin-bottom: 10px;
+}
+.dh-list li img {
+	border-radius: 8px; width: 40px; height: 40px; margin-bottom: 2px;
+}
+.ad-box {
+	height: 70px; overflow: hidden; margin-bottom: 10px; position: relative;
+}
+.ad-box a {
+	height: 70px; display: block;
+}
+.ad-box img {
+	width: 100%; height: auto; display: block;
+}
+.ad-box .ad-close {
+	background: url("../image/close.png") no-repeat center / 16px auto; top: 15px; width: 40px; height: 40px; right: 5px; text-indent: -200px; overflow: hidden; position: absolute;
+}
+.title-box {
+	height: 44px; line-height: 44px; font-size: 0px; margin-top: -0.5rem;
+}
+.title-box .title-img {
+	padding: 0px 5px; width: 14px; height: 14px; display: inline-block;
+}
+.title-box .title {
+	font-size: 1.6rem; font-weight: bold; display: inline-block;
+}
+.title-box .change {
+	color: rgb(155, 155, 155); font-size: 1.4rem; font-weight: normal; float: right;
+}
+.more {
+	color: rgb(155, 155, 155); font-size: 1.4rem; font-weight: normal; float: right;
+}
+.hot-list {
+	margin: 0px 0.3rem 18px; font-size: 0px;
+}
+.hot-list ul {
+	overflow: hidden;
+}
+.hot-list li {
+	width: 50%; height: 32px; line-height: 32px; overflow: hidden; font-size: 1.5rem; float: left;
+}
+.hot-list li::before {
+	margin: 0px 4px; border-radius: 5px; border: 0px currentColor; border-image: none; width: 4px; height: 4px; vertical-align: middle; display: inline-block; content: ""; background-color: rgb(83, 82, 82);
+}
+.icon {
+	background: url("../image/icon.png") no-repeat 0px 0px / 50px auto; margin: 0px 5px -2px; width: 16px; height: 15px; display: inline-block;
+}
+.icon-change {
+	margin: 0px 4px -1px; width: 13px; height: 13px;
+}
+.icon-hot {
+	background-position: -30px -30px;
+}
+.icon-video {
+	background-position: -30px -60px;
+}
+.icon-joke {
+	background-position: -30px -90px;
+}
+.icon-website {
+	background-position: 0px -30px;
+}
+.icon-search {
+	background-position: 0px -60px;
+}
+.icon-novel {
+	background-position: 0px -90px;
+}
+.icon-beauty {
+	background-position: 0px -120px;
+}
+.tab-box .tab-cnt {
+	display: none;
+}
+.tab-box .tab-cnt.on {
+	display: block;
+}
+.v-head {
+	margin: 0px -0.5rem; overflow: hidden; position: relative;
+}
+.v-head img {
+	width: 100%; height: auto;
+}
+.v-head .text {
+	left: 0px; width: 100%; height: 36px; bottom: 0px; color: rgb(255, 255, 255); line-height: 42px; overflow: hidden; font-size: 1.4rem; margin-top: -36px; position: absolute;
+}
+.v-head .text span {
+	padding: 0px 5px;
+}
+.v-list {
+	margin: 0.5rem -0.25rem; overflow: hidden; padding-bottom: 6px; border-bottom-color: rgb(225, 229, 240); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.v-list li {
+	padding: 0px 0.25rem; width: 50%; margin-bottom: 8px; vertical-align: top; float: left;
+}
+.v-list li a {
+	display: block; position: relative;
+}
+.v-list li img {
+	width: 100%; height: auto;
+}
+.v-list li .v-t {
+	padding: 0px 4px; height: 18px; line-height: 18px; overflow: hidden; font-size: 1.4rem; margin-top: 6px; display: block;
+}
+@media all and (max-width:320px)
+{
+.v-list li .v-t {
+	font-size: 1.2rem;
+}
+}
+.v-list li .v-des {
+	padding: 0px 4px; color: rgb(153, 153, 153); line-height: 16px; font-size: 1.2rem; display: block;
+}
+.v-dh {
+	margin: 0px -0.5rem; overflow: hidden; border-top-color: rgb(225, 229, 239); border-top-width: 1px; border-top-style: solid;
+}
+.v-dh li {
+	width: 25%; text-align: center; line-height: 40px; font-size: 1.4rem; float: left; position: relative;
+}
+.v-dh li a {
+	color: rgb(0, 153, 255); display: block;
+}
+.v-dh li::after {
+	border: 0px currentColor; border-image: none; top: 10px; width: 1px; height: 20px; right: 0px; position: absolute; content: ""; background-color: rgb(225, 229, 239);
+}
+.v-dh li:last-child::after {
+	display: none;
+}
+.novel-list {
+	margin: 0px -0.25rem; overflow: hidden; padding-bottom: 12px;
+}
+.novel-list li {
+	padding: 0px 0.25rem; width: 33.33%; vertical-align: top; float: left;
+}
+.novel-list li img {
+	width: 100%; height: auto; margin-bottom: 5px;
+}
+.novel-list li .n-t {
+	padding: 0px 4px; height: 18px; line-height: 18px; overflow: hidden; font-size: 1.4rem; display: block;
+}
+.novel-list li .n-des {
+	padding: 0px 4px; height: 16px; color: rgb(153, 153, 153); line-height: 16px; overflow: hidden; font-size: 1.2rem; display: block;
+}
+.novel-new {
+	border-width: 1px 0px; border-style: solid; border-color: rgb(225, 229, 240); padding: 10px 0px; border-image: none;
+}
+.novel-new li {
+	height: 32px; line-height: 32px; overflow: hidden; font-size: 1.4rem;
+}
+.novel-new li a {
+	height: 32px; display: block;
+}
+.novel-new li .icon-hot {
+	color: rgb(153, 153, 153); padding-left: 5px; font-size: 1rem; font-style: normal;
+}
+.h4-t {
+	margin: 8px 0px; line-height: 30px; font-size: 1.6rem; font-weight: normal;
+}
+.h4-t::before {
+	margin: 0px 5px -5px; width: 2px; height: 22px; display: inline-block; content: ""; background-color: rgb(73, 181, 254);
+}
+.novel-cat .novel-cat-list {
+	margin: 5px 0px 8px; overflow: hidden;
+}
+.novel-cat .novel-cat-list a {
+	margin: 0px 1% 8px; width: 18%; height: 30px; text-align: center; color: rgb(0, 0, 0); line-height: 30px; font-size: 1.4rem; float: left; background-color: rgb(244, 244, 244);
+}
+.v-dh5 li {
+	width: 20%;
+}
+.joke-ttl {
+	margin: 0px 5px; color: rgb(68, 68, 68); line-height: 24px;
+}
+.joke-text {
+	margin: 5px 5px 16px; font-size: 1.5rem;
+}
+.website-list li {
+	padding: 8px 0px 12px; border-top-color: rgb(225, 229, 240); border-top-width: 1px; border-top-style: solid;
+}
+.website-list li .item {
+	height: 40px; overflow: hidden;
+}
+.website-list li .item.item-fir {
+	height: 80px;
+}
+.website-list li .item.item-fir a:nth-child(6) {
+	margin-left: 16%;
+}
+.website-list li .item a {
+	width: 20%; height: 40px; text-align: center; line-height: 40px; overflow: hidden; font-size: 1.5rem; float: left;
+}
+.website-list li .item span {
+	width: 20%; height: 40px; text-align: center; line-height: 40px; overflow: hidden; font-size: 1.5rem; float: left;
+}
+.website-list li .item span {
+	width: 14%; text-align: left; color: rgb(0, 151, 254); margin-left: 2%;
+}
+.search-list li {
+	margin: 5px; overflow: hidden;
+}
+.search-list li a {
+	width: 20%; text-align: center; font-size: 1.2rem; margin-bottom: 16px; float: left;
+}
+.search-list li img {
+	margin: 0px auto 2px; border-radius: 100%; width: 30px; height: 30px; display: block;
+}
+.beauty-list {
+	margin: 0px -3px 12px; overflow: hidden;
+}
+.beauty-list a.big {
+	padding: 0px 3px; width: 50%; height: 212px; overflow: hidden; font-size: 0px; vertical-align: top; float: left;
+}
+.beauty-list .beauty-right {
+	padding: 0px 3px; width: 50%; height: 212px; overflow: hidden; font-size: 0px; vertical-align: top; float: left;
+}
+.beauty-list a.big {
+	background: url("../image/beautyLoading.gif") no-repeat center;
+}
+.beauty-list a.sml {
+	background: url("../image/beautyLoading.gif") no-repeat center; width: 100%; height: 103px; overflow: hidden; margin-bottom: 6px; display: inline-block;
+}
+.beauty-list a img {
+	width: 100%; height: auto;
+}
+.beauty-list .beauty-right {
+	width: 50%;
+}
+.footer {
+	margin: 20px 0px; text-align: center;
+}
+.footer a {
+	width: 70px; font-size: 1.6rem; display: inline-block;
+}
+.footer a.go-top {
+	width: 100px;
+}
+.footer a.go-top::before {
+	margin: 0px 16px 0px 0px; width: 1px; height: 20px; vertical-align: bottom; display: inline-block; content: ""; background-color: rgb(207, 207, 207);
+}
+.footer a.go-pc::before {
+	margin: 0px 16px 0px 0px; width: 1px; height: 20px; vertical-align: bottom; display: inline-block; content: ""; background-color: rgb(207, 207, 207);
+}
+.point-box {
+	top: 0px; width: 40px; height: 40px; text-align: center; right: 0px; position: absolute;
+}
+.point-box .icon-point {
+	border-width: 0px 40px 40px 0px; border-style: dashed solid dashed dashed; border-color: transparent; width: 0px; height: 0px; color: rgb(255, 255, 255); display: block;
+}
+.point-box i {
+	left: 8px; top: -37px; text-align: center; color: rgb(255, 255, 255); font-size: 1.2rem; font-style: normal; display: inline-block; position: relative; -webkit-transform: rotate(45deg);
+}
+.mt12 {
+	margin-top: 12px;
+}
+.text-bold {
+	font-weight: bold;
+}
+
+</style>
+<TITLE>网址大全 
+- 最安全实用的网址导航</TITLE>
+
+<BODY> 
+<DIV class="sec sec-head">
+<DIV class="inner">
+<DIV class="search-box" w="ss">
+
+<FORM id="baiduForm" action="http://m.baidu.com/s" accept-charset="utf-8" 
+autocomplete="off"><INPUT name="from" id="from" type="hidden" value="1001706a"> 
+<INPUT name="ch" id="ch" type="hidden" value="1"> <INPUT name="ie" id="ie" type="hidden" value="utf-8"> 
+<SPAN 
+class="ipt"><INPUT name="word" class="text-search" type="search" placeholder="输入关键字" value="" autocomplete="off" autocapitalize="off" autocorrect="off"> 
+</SPAN> <BUTTON class="btn-search" type="submit" 
+cid="14327628">search</BUTTON> 
+</FORM>
+
+
+</DIV>
+</DIV>
+</DIV>
+
+
+<DIV class="sec sec-website bg-white" w="wz">
+<DIV class="inner">
+<UL class="website-list">
+  <LI>
+
+  <DIV class="item"><SPAN>搜索</SPAN><A href="http://wap.soso.com/" target="_black">搜狗</A><A href="http://m.haosou.com">360</A>
+  <A href="http://m.baidu.com" target="_black">百度</A><A href="http://cn.bing.com" target="_black">必应</A>
+</DIV>
+
+  <DIV class="item"><SPAN>网盘</SPAN><A href="https://pan.baidu.com/disk/home?#list/path=%2F&vmode=list" target="_black">baidenet</A><A href="https://www.weiyun.com/disk" target="_black">weiyun</A>
+  <A href="https://i.mi.com/#/" target="_black">xiaomi</A><A href="https://sae.sina.com.cn/?m=dashboard" target="_black">新浪云</A>
+</DIV>
+
+    <DIV class="item"><SPAN>新闻</SPAN><A href="http://m.people.cn//" target="_black">人民</A><A href="http://inews.ifeng.com/" target="_black">凤凰</A>
+      <A href="http://m.news.cn/">新华</A><A href="http://m.sohu.com/">搜狐</A>
+    </DIV>
+
+  <DIV class="item"><SPAN>购物</SPAN> <A href="https://m.taobao.com" cid="14331159" target="_black" >淘宝</A>
+  <A href="http://m.jd.com" target="_black" 
+  cid="14332756">京东</A> <A href="http://m.suning.com/" target="_black" 
+  cid="14332757">苏宁</A> <A href="http://m.dangdang.com" target="_black" 
+  cid="14332759">当当</A> </DIV>
+
+
+  <DIV class="item"><SPAN>school</SPAN> <A href="http://xjw.hsnc.edu.cn/" target="_black" cid="14333928">教务处</A> 
+  <A href="http://wljx.hsnc.edu.cn/eol/homepage/common/" target="_black" cid="14333931">网络教学</A> <A href="http://tuanwei.hsnc.edu.cn/" target="_black" 
+  cid="14333929">团委</A> <A href="http://m.51job.com/?partner=bd_liebao_liebao" 
+  cid="16420250">None</A> </DIV>
+
+  <DIV class="item"><SPAN>邮箱</SPAN> <A href="http://smart.mail.126.com/" cid="14335838">126</A> 
+  <A href="http://mail.qq.com/" cid="14335911">QQ邮箱</A> <A href="http://m.mail.163.com/" 
+  cid="14335912">163</A> <A href="http://mail.10086.cn/" cid="14335913">139</A> 
+  </DIV>
+
+
+    <DIV class="item">
+ <SPAN>查词</SPAN> <A href="http://cn.bing.com/dict/" cid="14333509">必应</A>
+      <A href="http://m.youdao.com" cid="14333606">有道</A>
+      <A href="http://www.ldoceonline.com" cid="14333607">朗文</A>
+      <A href="http://dict.baidu.com/" cid="14333608">百度</A> </DIV>
+
+  </LI></UL></DIV></DIV>
+ 
+ 
+<DIV class="sec sec-search bg-white" w="cx">
+<DIV class="inner">
+<UL class="search-list">
+  <LI><A href="http://map.baidu.com/mobile/webapp/index/index"
+  cid="14332869"><SPAN>地图</SPAN> </A><A href="http://m.15tianqi.cn/town/7023"
+  cid="14332869"><SPAN>武东天气</SPAN> </A>
+  <A href="http://news.wpbst.com"><SPAN>武平县新闻</SPAN></A><A href="http://www.qiche100.cn/function/mobile/home/index.aspx?c=42&amp;p=105" cid="14333286"><SPAN>查违章</SPAN> </A> <A
+  href="http://m.kuaidi.com/" cid="14333386"><SPAN>查快递</SPAN>
+  </A> </LI></UL></DIV></DIV>
+
+<DIV class="footer"><h4>意见反馈a2943850180@126.com</h4></DIV>
+ <!--index.html date:2017-08-28 19:05:01-->
+<DIV id="cnzz_stat_icon_30083742" style="display: none;"></DIV>
+</BODY>
+</HTML>
